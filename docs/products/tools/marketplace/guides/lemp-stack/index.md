@@ -33,12 +33,11 @@ The LEMP stack (Linux, [NGINX](https://www.nginx.com/), [MySQL](https://www.mysq
 
 ## Configuration Options
 
-- **Supported distributions:** Debian 11, Ubuntu 20.04 LTS
+- **Supported distributions:** Debian 11, Ubuntu 22.04 LTS
 - **Recommended minimum plan:** 1GB Shared Compute Instance or higher, depending on the number of sites and size of the sites you plan on hosting.
 
 ### LEMP Stack Options
 
-- **Database Root Password** *(required)*: The root password for your LEMP stack's MySQL database. This is not the same as the Linux root user password.
 - **Email address** *(required)*: Enter the email address to use for generating the SSL certificates.
 
 {{< content "marketplace-limited-user-fields-shortguide">}}
@@ -71,5 +70,7 @@ The LEMP Stack Marketplace App installs the following software on your Compute I
 | [**MySQL Server**](https://www.mysql.com) | Relational database. |
 | [**PHP 7.4**](https://www.php.net) | General purpose programming language. |
 | [**UFW (Uncomplicated Firewall)**](https://en.wikipedia.org/wiki/Uncomplicated_Firewall) | Firewall utility. Ports 22/tcp and 80/tcp for IPv4 and IPv6 will allow outgoing and incoming traffic. |
+| [**Fail2Ban**](https://github.com/fail2ban/fail2ban)   | Provides protection against brute force and authentication attempts  |
+| [**Certbot SSL**](https://certbot.eff.org/)   | Is used to obtain HTTPS/TLS/SSL certificates  |
 
 {{< content "marketplace-update-note-shortguide">}}

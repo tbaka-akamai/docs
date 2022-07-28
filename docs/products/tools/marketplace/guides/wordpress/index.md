@@ -40,13 +40,22 @@ aliases: ['/platform/marketplace/deploying-wordpress-with-marketplace-apps/', '/
 - **Email address** *(required)*: Enter the email address you wish to use when configuring the WordPress admin user, generating SSL certificates, and optionally creating DNS records for a custom domain.
 - **Admin Username** *(required)*: Username for your WordPress admin user account.
 - **Admin Password** *(required)*: Password for your WordPress admin user account.
-- **MySQL `root` password** *(required)*: The root password for your MySQL database.
 - **WordPress Database Password** *(required)*: The root password for your WordPress database.
 - **Website Title:** Enter a title for your WordPress site.
 
 {{< content "marketplace-limited-user-fields-shortguide">}}
 
 {{< content "marketplace-custom-domain-fields-shortguide">}}
+
+## Software Included
+
+| Wordpress | Wordpress Content Management System |
+| MariaDB   | Relational database |
+| PHP       | General-purpose scripting language |
+| Fail2ban  | Provides protection against brute force and authentication attempts |
+| UFW       | Easy-to-use firewall wrapper used to allow HTTP/S and SSH ports |
+| Certbot   | Is used to obtain HTTPS/TLS/SSL certificates for the provided domain |
+
 
 ## Getting Started After Deployment
 
