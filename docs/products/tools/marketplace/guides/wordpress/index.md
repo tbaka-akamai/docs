@@ -43,6 +43,10 @@ aliases: ['/platform/marketplace/deploying-wordpress-with-marketplace-apps/', '/
 - **WordPress Database Password** *(required)*: The root password for your WordPress database.
 - **Website Title:** Enter a title for your WordPress site.
 
+{{<note>}}
+A MySQL root password will be generated on deployment and saved to the `/root/.linode_credentials.txt` file.
+{{</note>}}
+
 {{< content "marketplace-limited-user-fields-shortguide">}}
 
 {{< content "marketplace-custom-domain-fields-shortguide">}}

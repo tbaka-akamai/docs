@@ -39,6 +39,10 @@ A LAMP (Linux, [Apache](https://www.apache.org), [MySQL](https://www.mysql.com),
 
 - **Email address** *(required)*: Enter the email address to use for generating the SSL certificates.
 
+{{<note>}}
+A MySQL root password will be generated on deployment and saved to the `/root/.linode_credentials.txt` file.
+{{</note>}}
+
 {{< content "marketplace-limited-user-fields-shortguide">}}
 
 {{< content "marketplace-custom-domain-fields-shortguide">}}

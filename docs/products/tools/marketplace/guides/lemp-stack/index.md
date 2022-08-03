@@ -40,6 +40,10 @@ The LEMP stack (Linux, [NGINX](https://www.nginx.com/), [MySQL](https://www.mysq
 
 - **Email address** *(required)*: Enter the email address to use for generating the SSL certificates.
 
+{{<note>}}
+A MySQL root password will be generated on deployment and saved to the `/root/.linode_credentials.txt` file.
+{{</note>}}
+
 {{< content "marketplace-limited-user-fields-shortguide">}}
 
 {{< content "marketplace-custom-domain-fields-shortguide">}}
